@@ -1,0 +1,3 @@
+xi: regress depression_wave9 average_number i.gor depression_wave1 incomewave1_quinttile female_wave1 age_wave1 i.marriedstatus_wave1 i.educationlevel_wave1 i.healthStatus_wave1 i.smokerstatus_wave1 i.physactivity_wave1, vce(robust) eform()
+
+xi: regress depression_wave9 median_number i.gor depression_wave1 incomewave1_quinttile female_wave1 age_wave1 i.marriedstatus_wave1 i.educationlevel_wave1 i.healthStatus_wave1 i.smokerstatus_wave1 i.physactivity_wave1, vce(robust) eform()
